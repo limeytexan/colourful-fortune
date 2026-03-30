@@ -2,9 +2,10 @@
   "catalogs": {
     "lol-cat-py": {
       "type": "nix",
+      "pkgsDir": ".flox/pkgs",
+      "catalogsLock": ".flox/nix-builds.lock",
       "hash": "sha256-le3Y9zb7zYuUcaZgkR2HTa2fBlMnMJBxIblwZKK2SFU=",
       "locked": {
-        "dir": "./.flox",
         "lastModified": 1774835350,
         "owner": "limeytexan",
         "repo": "lol-cat-py",
